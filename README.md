@@ -11,13 +11,15 @@ https://www.bluepiit.com/blog/spark-vs-flink-which-of-the-two-will-win/
 
 ## Nifi
 
-- RAW Socket site-to-site
+### RAW Socket site-to-site
+
   communications https://community.cloudera.com/t5/Support-Questions/Remote-instance-of-NiFi-is-not-configured-to-allow-RAW/td-p/136978
-  nifi.remote.input.host=<FQDN of Host>              <-- Set to resolveable FQDN by all Nodes
-  nifi.remote.input.secure=false                     <-- Set to True on if NiFi is running HTTPS
-  nifi.remote.input.socket.port=<Port used for S2S)  <-- Needs to be set to support Raw/enable S2S
-  nifi.remote.input.http.enabled=true                <-- Set if you want to support HTTP transport
-  nifi.remote.input.http.transaction.ttl=30 sec
+  
+  - nifi.remote.input.host=<FQDN of Host>             
+  - nifi.remote.input.secure=false                   
+  - nifi.remote.input.socket.port=<Port used for S2S)
+  - nifi.remote.input.http.enabled=true                
+  - nifi.remote.input.http.transaction.ttl=30 sec
 
 # Clustering With Nifi and Flink
 
