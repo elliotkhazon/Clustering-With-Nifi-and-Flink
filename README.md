@@ -23,7 +23,7 @@ https://www.bluepiit.com/blog/spark-vs-flink-which-of-the-two-will-win/
 
 # Clustering With Nifi and Flink
 
-This repo is inspired by  Apache Flink examples for Fraudulent Activity Detetion. The aim of this project is to provide a way to use
+This repo is inspired by  Apache Flink examples for Fraudulent Activity Detection. The aim of this project is to provide a way to use
 Unsupervised Learning to detect clusters in user activity.
 
 
@@ -75,3 +75,5 @@ Now we can access the UI at localhost port 8081 using the link [Flink Local UI](
 
 
 
+#Credits
+- https://raw.githubusercontent.com/bbende/nifi-streaming-examples/
