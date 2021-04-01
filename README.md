@@ -59,13 +59,15 @@ rest.address: 0.0.0.0
 ```
 
 Now we can access the UI at localhost port 8081 using the link [Flink Local UI](http://localhost:8081)
-![UI](https://github.com/blurred-machine/Flink-Fraud-Detection-with-DataStream-API/blob/main/images/ui.png)
-
 4) To stop the cluster:
 
 ```mvn
 ./bin/stop-cluster.sh
 ```
+# Setup NiFi
+1)
+2) 
+3) Import `deviceid-counts` template into nifi located in `nifi/template/deviceid-counts.xml`
 
 
 
