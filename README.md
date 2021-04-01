@@ -49,7 +49,7 @@ repo and run the following commands.
 2) run the jar on flink:
 
 ```mvn
-./bin/flink run ./frauddetection-0.1.jar
+./bin/flink run ./feature_extraction-0.1
 ```
 
 3) Additionally, you can check Flink’s Web UI to monitor the status of the Cluster and running Job.
@@ -68,12 +68,12 @@ Now we can access the UI at localhost port 8081 using the link [Flink Local UI](
 ./bin/stop-cluster.sh
 ```
 # Setup NiFi
-1)
-2) 
-3) Import `deviceid-counts` template into nifi located in `nifi/template/deviceid-counts.xml`
+1) Download/Install Nifi
+2) Import `deviceid-counts` template into nifi located in `nifi/template/deviceid-counts.xml`
 
 
 
 
 # Credits
 - https://raw.githubusercontent.com/bbende/nifi-streaming-examples/
+- https://github.com/blurred-machine/Flink-Fraud-Detection-with-DataStream-API
