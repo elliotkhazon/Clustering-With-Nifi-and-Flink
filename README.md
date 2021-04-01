@@ -19,10 +19,11 @@ https://www.bluepiit.com/blog/spark-vs-flink-which-of-the-two-will-win/
   nifi.remote.input.http.enabled=true                <-- Set if you want to support HTTP transport
   nifi.remote.input.http.transaction.ttl=30 sec
 
-# Flink-Fraud-Detection-with-DataStream-API
+# Clustering With Nifi and Flink
 
-This repo consists of a fraud detection system for alerting on suspicious credit card transactions. Using a simple set
-of rules, you will see how Flink allows us to implement advanced business logic and act in real-time.
+This repo is inspired by  Apache Flink examples for Fraudulent Activity Detetion. The aim of this project is to provide a way to use
+Unsupervised Learning to detect clusters in user activity.
+
 
 To be able to run Flink, the only requirement is to have a working **Java 8 or 11** installation.
 
